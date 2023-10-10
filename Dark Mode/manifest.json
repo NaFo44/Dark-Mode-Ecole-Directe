@@ -1,0 +1,31 @@
+{
+    "name": "Custom EcoleDirecte",
+    "description": "Profiter d'une interface plus clair et adapté a vos besoin grâce a Custom EcoleDirecte",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.ecoledirecte.com/login?cameFrom=%2FAccueil",
+                "https://www.ecoledirecte.com/Famille",
+		"https://www.ecoledirecte.com/E",
+		"https://www.ecoledirecte.com/F/FamilleCoordonnees"
+            ],
+            "js": [
+                "app.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}
