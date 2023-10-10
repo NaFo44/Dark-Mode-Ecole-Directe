@@ -1,5 +1,5 @@
 # Dark-Mode-Ecole-Directe
-Améliorez votre expérience avec Ecole Directe en appliquant un thème "Dark Mode" a 'interface, grâce a cette extension Chrome.
+Améliorez votre expérience avec Ecole Directe en appliquant un thème "Dark Mode" a l'interface, grâce a cette extension Chrome.
 
 Voici Quelque consigne pour procédé a l'installation :
 1- Cliquer sur le lien suivant : chrome://extensions/
